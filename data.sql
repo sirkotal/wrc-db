@@ -11,3 +11,32 @@ INSERT INTO Rally VALUES(10, '2022-09-08', '2022-09-11', 'Acropolis Rally Greece
 INSERT INTO Rally VALUES(11, '2022-09-29', '2022-10-02', 'Rally New Zealand', 'Auckland, North Island', 'Gravel', 17, 279.80);
 INSERT INTO Rally VALUES(12, '2022-10-20', '2022-10-23', 'RACC Rally Catalunya de España', 'Salou, Catalonia', 'Tarmac', 19, 293.77);
 INSERT INTO Rally VALUES(13, '2022-11-10', '2022-11-13', 'Rally Japan', 'Nagoya, Chūbu region', 'Tarmac', 19, 283.27);
+
+
+INSERT INTO Team VALUES(1, 'Ford', 'M-Sport Ford WRT', 'United Kingdom');
+INSERT INTO Team VALUES(2, 'Hyundai', 'Hyundai Shell Mobis WRT', 'Republic Of Korea');
+INSERT INTO Team VALUES(3, 'Toyota', 'Toyota Gazoo Racing WRT', 'Japan');
+INSERT INTO Team VALUES(4, 'Toyota', 'Toyota Gazoo Racing WRT NG', 'Japan');
+
+INSERT INTO Car VALUES(1, 'Ford Puma', 'Rally1');
+INSERT INTO Car VALUES(2, 'Hyundai i20 N', 'Rally1');
+INSERT INTO Car VALUES(3, 'Toyota GR Yaris', 'Rally1');
+
+INSERT INTO Driver VALUES(1, 'Adrien Fourmaux', 'France', 16);
+INSERT INTO Driver VALUES(2, 'Sébastien Loeb', 'France', 19);
+INSERT INTO Driver VALUES(3, 'Craig Breen', 'Ireland', 42);
+INSERT INTO Driver VALUES(4, 'Gus Greensmith', 'United Kingdom', 44);
+INSERT INTO Driver VALUES(5, 'Oliver Solberg', 'Sweden', 2);
+INSERT INTO Driver VALUES(6, 'Dani Sordo', 'Spain', 6);
+INSERT INTO Driver VALUES(7, 'Ott Tänak', 'Estonia', 8);
+INSERT INTO Driver VALUES(8, 'Thierry Neuville', 'Belgium', 11);
+INSERT INTO Driver VALUES(9, 'Sébastien Ogier', 'France', 1);
+INSERT INTO Driver VALUES(10, 'Esapekka Lappi', 'Finland', 4);
+INSERT INTO Driver VALUES(11, 'Elfyn Evans', 'United Kingdom', 33);
+INSERT INTO Driver VALUES(12, 'Kalle Rovanperä', 'Finland', 69);
+INSERT INTO Driver VALUES(13, 'Takamoto Katsuta', 'Japan', 18);
+
+INSERT INTO Driver VALUES(14, 'Pierre-Louis Loubet', 'France', 7);
+INSERT INTO Driver VALUES(15, 'Jourdan Serderidis', 'Greece', 9);
+INSERT INTO Driver VALUES(16, 'Lorenzo Bertelli', 'Italy', 37);
+INSERT INTO Driver VALUES(17, 'Jari Huttunen', 'Finland', 68);
