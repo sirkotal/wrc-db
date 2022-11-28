@@ -8,7 +8,7 @@ CREATE TABLE Rally (
     idRally      INTEGER,
     startDate    DATE CONSTRAINT unique_startDate UNIQUE CONSTRAINT startDate_nn NOT NULL,
     endDate      DATE CONSTRAINT unique_endDate UNIQUE CONSTRAINT endDate_nn NOT NULL,
-    rallyName    VARCHAR(1000),
+    rallyName    VARCHAR(1000) CONSTRAINT unique_rallyName UNIQUE CONSTRAINT rallyName_nn NOT NULL,
     hq           VARCHAR(1000) CONSTRAINT unique_hq UNIQUE CONSTRAINT hq_nn NOT NULL,
     surface      VARCHAR(100) CONSTRAINT surface_nn NOT NULL,
     stages       INTEGER CONSTRAINT stages_nn NOT NULL,
