@@ -8,7 +8,7 @@ CREATE TABLE Rally (
     idRally      INTEGER,
     startDate    DATE CONSTRAINT unique_startDate UNIQUE CONSTRAINT startDate_nn NOT NULL,
     endDate      DATE CONSTRAINT unique_endDate UNIQUE CONSTRAINT endDate_nn NOT NULL,
-    rallyName    VARCHAR(1000),
+    rallyName    VARCHAR(1000) CONSTRAINT unique_rallyName UNIQUE CONSTRAINT rallyName_nn NOT NULL,
     hq           VARCHAR(1000) CONSTRAINT unique_hq UNIQUE CONSTRAINT hq_nn NOT NULL,
     surface      VARCHAR(100) CONSTRAINT surface_nn NOT NULL,
     stages       INTEGER CONSTRAINT stages_nn NOT NULL,
@@ -16,6 +16,21 @@ CREATE TABLE Rally (
     PRIMARY KEY(idRally, rallyName),
     CONSTRAINT date_match CHECK ( (startDate <= endDate))
 );
+
+-- Table: Stage
+DROP TABLE IF EXISTS Stage;
+
+CREATE TABLE Stage (
+    idStage      INTEGER,
+    stageRally   VARCHAR(1000) CONSTRAINT fk_stageRally REFERENCES Rally (rallyName) ON DELETE CASCADE 
+                                                                                     ON UPDATE CASCADE,
+    stageCode    VARCHAR(4) CONSTRAINT stageCode_nn NOT NULL,
+    stageName    VARCHAR(1000) CONSTRAINT unique_stageName UNIQUE CONSTRAINT stageName_nn NOT NULL,
+    rallyDay     INTEGER CONSTRAINT rallyDay_nn NOT NULL,
+    PRIMARY KEY(idStage, stageName),
+    CONSTRAINT check_day CHECK ( (rallyDay <= 4 AND rallyDay >= 1))
+);
+
 
 
 -- Table: Team

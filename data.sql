@@ -12,6 +12,10 @@ INSERT INTO Rally VALUES(11, '2022-09-29', '2022-10-02', 'Rally New Zealand', 'A
 INSERT INTO Rally VALUES(12, '2022-10-20', '2022-10-23', 'RACC Rally Catalunya de España', 'Salou, Catalonia', 'Tarmac', 19, 293.77);
 INSERT INTO Rally VALUES(13, '2022-11-10', '2022-11-13', 'Rally Japan', 'Nagoya, Chūbu region', 'Tarmac', 19, 283.27);
 
+INSERT INTO Stage VALUES(1, 'Rallye Automobile Monte Carlo', 'SS1', 'Luceram - Lantosque', 1);
+INSERT INTO Stage VALUES(2, 'Rallye Automobile Monte Carlo', 'SS2', 'La Bollène Vésubie - Moulinet', 1);
+INSERT INTO Stage VALUES(3, 'Rallye Automobile Monte Carlo', 'SS3', 'Roure - Beuil 1', 2);
+
 
 INSERT INTO Team VALUES(1, 'Ford', 'M-Sport Ford WRT', 'United Kingdom');
 INSERT INTO Team VALUES(2, 'Hyundai', 'Hyundai Shell Mobis WRT', 'Republic Of Korea');
