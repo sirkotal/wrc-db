@@ -61,7 +61,7 @@ CREATE TABLE Driver (
     idDriver INTEGER,
     driverName VARCHAR(1000),
     country VARCHAR(1000) CONSTRAINT country_nn NOT NULL,
-    number INTEGER CONSTRAINT unique_number UNIQUE CONSTRAINT number_nn NOT NULL,
+    driverNumber INTEGER CONSTRAINT unique_driverNumber UNIQUE CONSTRAINT number_nn NOT NULL,
     PRIMARY KEY(idDriver, driverName)
 );
 
