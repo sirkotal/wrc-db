@@ -20,6 +20,15 @@ INSERT INTO Stage VALUES(5, 'Rallye Automobile Monte Carlo', 'SS5', 'Val-De-Chal
 INSERT INTO Stage VALUES(6, 'Rallye Automobile Monte Carlo', 'SS6', 'Roure - Beuil 2', 2);
 INSERT INTO Stage VALUES(7, 'Rallye Automobile Monte Carlo', 'SS7', 'Guillaumes - Péone - Valberg 2', 2);
 INSERT INTO Stage VALUES(8, 'Rallye Automobile Monte Carlo', 'SS8', 'Val-De-Chalvagne - Entrevaux 2', 2);
+INSERT INTO Stage VALUES(9, 'Rallye Automobile Monte Carlo', 'SS9', 'Le Fugeret - Thorame-Haute', 3);
+INSERT INTO Stage VALUES(10, 'Rallye Automobile Monte Carlo', 'SS10', 'Saint-Jeannet - Malijai 1', 3);
+INSERT INTO Stage VALUES(11, 'Rallye Automobile Monte Carlo', 'SS11', 'Saint-Geniez - Thoard 1', 3);
+INSERT INTO Stage VALUES(12, 'Rallye Automobile Monte Carlo', 'SS12', 'Saint-Jeannet - Malijai 2', 3);
+INSERT INTO Stage VALUES(13, 'Rallye Automobile Monte Carlo', 'SS13', 'Saint-Geniez - Thoard 2', 3);
+INSERT INTO Stage VALUES(14, 'Rallye Automobile Monte Carlo', 'SS14', 'La Penne - Collongues 1', 4);
+INSERT INTO Stage VALUES(15, 'Rallye Automobile Monte Carlo', 'SS15', 'Briançonnet - Entrevaux 1', 4);
+INSERT INTO Stage VALUES(16, 'Rallye Automobile Monte Carlo', 'SS16', 'La Penne - Collongues 2', 4);
+INSERT INTO Stage VALUES(17, 'Rallye Automobile Monte Carlo', 'SS17', 'Briançonnet - Entrevaux 2', 4);
 
 
 INSERT INTO Team VALUES(1, 'Ford', 'M-Sport Ford WRT', 'United Kingdom');
